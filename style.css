@@ -60,3 +60,11 @@ main{
     border-radius: 32px;
     background-color: greenyellow;
 }
+
+.lado_direito_imagem{
+    width: 400px;
+    height: 510px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+}
