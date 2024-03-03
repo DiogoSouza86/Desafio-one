@@ -1,0 +1,36 @@
+
+:root{
+    --cor--azul:#0A3871;
+    --cor--cinza: #D8DFE8;
+}
+
+main{
+    display: flex;
+}
+
+.lado_esquerdo{
+    width: 680px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    border: 240px;
+    background-color: brown;
+}
+
+.lado_esquerdo_texto{
+    border: 0px none;
+}
+
+.lado_esquerdo_boxbotao{
+    display: flex;
+    flex-direction: column;
+}
+
+.lado_direito{
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-color: greenyellow;
+}
