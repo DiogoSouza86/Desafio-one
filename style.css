@@ -24,6 +24,27 @@ main{
 .lado_esquerdo_boxbotao{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.btn_cripto{
+    width: Fixed (328px);
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+.btn_descripto{
+    width: Fixed (328px);
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: var(--cor--cinza);
+    color: var(--cor--azul);
 }
 
 .lado_direito{
