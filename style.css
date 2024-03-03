@@ -8,24 +8,29 @@ main{
     display: flex;
 }
 
-.lado_esquerdo{
+.lado_esquerdo_texto{
     width: 680px;
     height: 48px;
     top: 168px;
-    left: 240px;
+    left: 220px;
     border: 240px;
+    border: 0px none;
     background-color: brown;
+    padding: 5px;
 }
 
-.lado_esquerdo_texto{
-    border: 0px none;
-}
 
 .lado_esquerdo_boxbotao{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.box_btn{        
+    position: absolute;
+    bottom: 0;
+}
+
 
 .btn_cripto{
     width: Fixed (328px);
@@ -49,7 +54,7 @@ main{
 
 .lado_direito{
     width: 400px;
-    height: 944px;
+    height: 510px;
     top: 40px;
     left: 1000px;
     border-radius: 32px;
